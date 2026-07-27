@@ -1,0 +1,192 @@
+<?php
+/**
+ * Vietnamese language strings.
+ */
+return [
+    // Navigation
+    'nav_home'           => 'Trang chủ',
+    'nav_courses'        => 'Khóa học',
+    'nav_instruments'    => 'Nhạc cụ',
+    'nav_instructors'    => 'Giảng viên',
+    'nav_learning_path'  => 'Lộ trình',
+    'nav_library'        => 'Thư viện',
+    'nav_community'      => 'Cộng đồng',
+    'nav_about'          => 'Về chúng tôi',
+    'nav_contact'        => 'Liên hệ',
+    'nav_login'          => 'Đăng nhập',
+    'nav_register'       => 'Đăng ký',
+    'nav_logout'         => 'Đăng xuất',
+    'nav_profile'        => 'Hồ sơ',
+    'nav_admin'          => 'Quản trị',
+    'brand_tagline'      => 'MUSIC CLUB',
+
+    // Hero
+    'hero_label'         => 'Nền tảng âm nhạc số 1',
+    'hero_heading'       => 'HỌC NHẠC CHO MỌI LỨA TUỔI',
+    'hero_subtext'       => 'Khám phá thế giới âm nhạc với phương pháp học hiện đại, giáo viên chuyên nghiệp và chương trình đào tạo phù hợp với mọi lứa tuổi.',
+    'hero_cta_primary'   => 'Bắt đầu hành trình',
+    'hero_cta_secondary' => 'Xem thêm',
+
+    // Sections
+    'features_title'      => 'Vì sao chọn MusicOfEveryone?',
+    'features_subtitle'   => 'Tất cả những gì bạn cần để bắt đầu và đi xa cùng âm nhạc.',
+    'courses_title'       => 'Khóa học nổi bật',
+    'courses_subtitle'    => 'Những khóa học được học viên yêu thích nhất tại MusicOfEveryone.',
+    'courses_view_all'    => 'Xem tất cả khóa học',
+    'levels_title'        => 'Lộ trình theo cấp độ',
+    'levels_subtitle'     => 'Ba chặng đường học tập được thiết kế theo độ tuổi và mục tiêu.',
+    'instructors_title'   => 'Đội ngũ giảng viên',
+    'instructors_subtitle' => 'Những người thầy đồng hành cùng bạn trên hành trình âm nhạc.',
+    'posts_title'         => 'Thư viện kiến thức',
+    'posts_subtitle'      => 'Bài viết, mẹo luyện tập và câu chuyện âm nhạc.',
+    'cta_title'           => 'Sẵn sàng bắt đầu hành trình âm nhạc?',
+    'cta_subtext'         => 'Đăng ký hôm nay để nhận buổi học thử miễn phí cùng giảng viên của chúng tôi.',
+    'cta_button'          => 'Đăng ký học thử',
+
+    // Common
+    'read_more'          => 'Xem chi tiết',
+    'view_all'           => 'Xem tất cả',
+    'search'             => 'Tìm kiếm',
+    'search_placeholder' => 'Nhập từ khóa...',
+    'filter_all'         => 'Tất cả',
+    'filter_level'       => 'Cấp độ',
+    'no_results'         => 'Không tìm thấy kết quả nào.',
+    'back'               => 'Quay lại',
+    'price'              => 'Học phí',
+    'free'               => 'Miễn phí',
+    'duration'           => 'Thời lượng',
+    'level'              => 'Cấp độ',
+    'instructor'         => 'Giảng viên',
+    'published_on'       => 'Đăng ngày',
+    'related_courses'    => 'Khóa học liên quan',
+    'related_posts'      => 'Bài viết liên quan',
+    'courses_by'         => 'Khóa học phụ trách',
+    'contact_now'        => 'Liên hệ ngay',
+    'register_course'    => 'Đăng ký khóa học',
+    'age_range'          => 'Độ tuổi',
+    'home'               => 'Trang chủ',
+
+    // Auth
+    'login_title'        => 'Đăng nhập',
+    'login_subtitle'     => 'Chào mừng bạn quay lại với MusicOfEveryone.',
+    'register_title'     => 'Đăng ký tài khoản',
+    'register_subtitle'  => 'Tạo tài khoản để lưu khóa học và theo dõi tiến độ.',
+    'field_name'         => 'Họ và tên',
+    'field_email'        => 'Email',
+    'field_phone'        => 'Số điện thoại',
+    'field_password'     => 'Mật khẩu',
+    'field_password_confirm' => 'Xác nhận mật khẩu',
+    'field_current_password' => 'Mật khẩu hiện tại',
+    'field_new_password' => 'Mật khẩu mới',
+    'btn_login'          => 'Đăng nhập',
+    'btn_register'       => 'Đăng ký',
+    'btn_save'           => 'Lưu thay đổi',
+    'btn_send'           => 'Gửi liên hệ',
+    'have_account'       => 'Đã có tài khoản?',
+    'no_account'         => 'Chưa có tài khoản?',
+    'profile_title'      => 'Hồ sơ của tôi',
+    'profile_info'       => 'Thông tin cá nhân',
+    'profile_password'   => 'Đổi mật khẩu',
+    'member_since'       => 'Thành viên từ',
+
+    // Messages
+    'msg_login_success'   => 'Đăng nhập thành công.',
+    'msg_login_failed'    => 'Email hoặc mật khẩu không đúng.',
+    'msg_account_locked'  => 'Tài khoản của bạn đã bị khóa.',
+    'msg_register_success' => 'Đăng ký thành công. Chào mừng bạn!',
+    'msg_email_exists'    => 'Email này đã được sử dụng.',
+    'msg_password_mismatch' => 'Mật khẩu xác nhận không khớp.',
+    'msg_password_short'  => 'Mật khẩu phải có ít nhất 8 ký tự.',
+    'msg_required_fields' => 'Vui lòng điền đầy đủ thông tin bắt buộc.',
+    'msg_invalid_email'   => 'Địa chỉ email không hợp lệ.',
+    'msg_profile_updated' => 'Cập nhật hồ sơ thành công.',
+    'msg_password_updated' => 'Đổi mật khẩu thành công.',
+    'msg_wrong_password'  => 'Mật khẩu hiện tại không đúng.',
+    'msg_contact_sent'    => 'Cảm ơn bạn! Chúng tôi sẽ liên hệ lại sớm nhất.',
+    'msg_csrf'            => 'Phiên làm việc đã hết hạn, vui lòng thử lại.',
+    'msg_not_found'       => 'Không tìm thấy nội dung bạn yêu cầu.',
+
+    // Contact
+    'contact_title'       => 'Liên hệ',
+    'contact_subtitle'    => 'Bạn có câu hỏi? Hãy để lại lời nhắn, chúng tôi sẽ phản hồi trong 24 giờ.',
+    'contact_info'        => 'Thông tin liên hệ',
+    'field_subject'       => 'Tiêu đề',
+    'field_message'       => 'Nội dung',
+    'working_hours'       => 'Giờ làm việc',
+    'address'             => 'Địa chỉ',
+    'phone'               => 'Điện thoại',
+
+    // About
+    'about_title'         => 'Về chúng tôi',
+    'about_subtitle'      => 'Âm nhạc là món quà dành cho tất cả mọi người.',
+    'about_mission'       => 'Sứ mệnh',
+    'about_vision'        => 'Tầm nhìn',
+    'about_values'        => 'Giá trị cốt lõi',
+    'about_story'         => 'Câu chuyện của chúng tôi',
+
+    // Community
+    'community_title'     => 'Cộng đồng',
+    'community_subtitle'  => 'Nơi học viên MusicOfEveryone kết nối, chia sẻ và cùng nhau tiến bộ.',
+
+    // Library
+    'library_title'       => 'Thư viện',
+    'library_subtitle'    => 'Kiến thức âm nhạc, mẹo luyện tập và cảm hứng mỗi tuần.',
+
+    // Courses page
+    'courses_page_title'  => 'Tất cả khóa học',
+    'courses_page_subtitle' => 'Chọn khóa học phù hợp với độ tuổi và mục tiêu của bạn.',
+
+    // Instructors page
+    'instructors_page_title' => 'Giảng viên',
+    'instructors_page_subtitle' => 'Đội ngũ giảng viên tận tâm và giàu kinh nghiệm.',
+
+    // Footer
+    'footer_about'        => 'MusicOfEveryone là câu lạc bộ âm nhạc trực tuyến dành cho mọi lứa tuổi, mang âm nhạc đến gần hơn với tất cả mọi người.',
+    'footer_links'        => 'Liên kết nhanh',
+    'footer_courses'      => 'Khóa học',
+    'footer_contact'      => 'Liên hệ',
+    'footer_follow'       => 'Theo dõi chúng tôi',
+    'footer_copyright'    => 'Bản quyền thuộc về MusicOfEveryone. Mọi quyền được bảo lưu.',
+
+    // Stats
+    'stat_students'       => 'Học viên',
+    'stat_courses'        => 'Khóa học',
+    'stat_instructors'    => 'Giảng viên',
+    'stat_years'          => 'Năm kinh nghiệm',
+
+    // Pagination
+    'prev'                => 'Trước',
+    'next'                => 'Sau',
+
+    // Admin
+    'admin_panel'         => 'Trang quản trị',
+    'admin_dashboard'     => 'Tổng quan',
+    'admin_courses'       => 'Khóa học',
+    'admin_posts'         => 'Bài viết',
+    'admin_instructors'   => 'Giảng viên',
+    'admin_levels'        => 'Cấp độ',
+    'admin_features'      => 'Tính năng',
+    'admin_members'       => 'Thành viên',
+    'admin_settings'      => 'Cài đặt',
+    'admin_messages'      => 'Tin nhắn liên hệ',
+    'admin_view_site'     => 'Xem website',
+    'admin_add_new'       => 'Thêm mới',
+    'admin_edit'          => 'Sửa',
+    'admin_delete'        => 'Xóa',
+    'admin_actions'       => 'Thao tác',
+    'admin_status'        => 'Trạng thái',
+    'admin_active'        => 'Hoạt động',
+    'admin_inactive'      => 'Tạm ẩn',
+    'admin_published'     => 'Đã đăng',
+    'admin_draft'         => 'Bản nháp',
+    'admin_featured'      => 'Nổi bật',
+    'admin_title'         => 'Tiêu đề',
+    'admin_recent'        => 'Mới nhất',
+    'admin_confirm_delete' => 'Bạn có chắc chắn muốn xóa mục này?',
+    'admin_no_items'      => 'Chưa có dữ liệu.',
+    'admin_login_title'   => 'Đăng nhập quản trị',
+    'msg_admin_required'  => 'Bạn cần quyền quản trị để truy cập trang này.',
+    'msg_saved'           => 'Đã lưu thay đổi.',
+    'msg_deleted'         => 'Đã xóa thành công.',
+    'msg_upload_error'    => 'Tải ảnh lên thất bại.',
+];

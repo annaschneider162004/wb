@@ -1,0 +1,70 @@
+# =====================================================================
+# MusicOfEveryone - Apache configuration (cPanel friendly)
+# =====================================================================
+
+Options -Indexes
+DirectoryIndex index.php index.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # RewriteBase /
+
+    # Do not rewrite existing files or directories
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Pretty URLs
+    RewriteRule ^khoa-hoc/?$                 khoa-hoc.php                        [L,QSA]
+    RewriteRule ^khoa-hoc/([A-Za-z0-9_-]+)/?$ khoa-hoc-chi-tiet.php?slug=$1      [L,QSA]
+    RewriteRule ^giang-vien/?$               giang-vien.php                      [L,QSA]
+    RewriteRule ^giang-vien/([A-Za-z0-9_-]+)/?$ giang-vien-chi-tiet.php?slug=$1  [L,QSA]
+    RewriteRule ^thu-vien/?$                 thu-vien.php                        [L,QSA]
+    RewriteRule ^bai-viet/([A-Za-z0-9_-]+)/?$ bai-viet-chi-tiet.php?slug=$1      [L,QSA]
+    RewriteRule ^cong-dong/?$                cong-dong.php                       [L,QSA]
+    RewriteRule ^ve-chung-toi/?$             ve-chung-toi.php                    [L,QSA]
+    RewriteRule ^lien-he/?$                  lien-he.php                         [L,QSA]
+    RewriteRule ^dang-ky/?$                  register.php                        [L,QSA]
+    RewriteRule ^dang-nhap/?$                login.php                           [L,QSA]
+    RewriteRule ^dang-xuat/?$                logout.php                          [L,QSA]
+    RewriteRule ^ho-so/?$                    profile.php                         [L,QSA]
+    RewriteRule ^sitemap\.xml$               sitemap.php                         [L]
+</IfModule>
+
+# --------------------------- Security -------------------------------
+<FilesMatch "^(config\.php|config\.sample\.php|database\.sql|setup-passwords\.php)$">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "\.(sql|log|ini|md)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Block PHP execution inside uploads
+<IfModule mod_rewrite.c>
+    RewriteRule ^uploads/.*\.(php|phtml|php[0-9])$ - [F,L]
+</IfModule>
+
+# --------------------------- Performance ----------------------------
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+</IfModule>
+
+# --------------------------- Error pages ----------------------------
+ErrorDocument 404 /index.php

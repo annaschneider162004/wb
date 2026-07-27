@@ -1,0 +1,192 @@
+<?php
+/**
+ * English language strings.
+ */
+return [
+    // Navigation
+    'nav_home'           => 'Home',
+    'nav_courses'        => 'Courses',
+    'nav_instruments'    => 'Instruments',
+    'nav_instructors'    => 'Instructors',
+    'nav_learning_path'  => 'Learning path',
+    'nav_library'        => 'Library',
+    'nav_community'      => 'Community',
+    'nav_about'          => 'About us',
+    'nav_contact'        => 'Contact',
+    'nav_login'          => 'Log in',
+    'nav_register'       => 'Sign up',
+    'nav_logout'         => 'Log out',
+    'nav_profile'        => 'Profile',
+    'nav_admin'          => 'Admin',
+    'brand_tagline'      => 'MUSIC CLUB',
+
+    // Hero
+    'hero_label'         => 'The #1 music platform',
+    'hero_heading'       => 'MUSIC LESSONS FOR EVERY AGE',
+    'hero_subtext'       => 'Discover the world of music with a modern learning method, professional teachers and programmes designed for every age group.',
+    'hero_cta_primary'   => 'Start your journey',
+    'hero_cta_secondary' => 'Learn more',
+
+    // Sections
+    'features_title'      => 'Why choose MusicOfEveryone?',
+    'features_subtitle'   => 'Everything you need to start and to go far with music.',
+    'courses_title'       => 'Featured courses',
+    'courses_subtitle'    => 'The courses our students love the most.',
+    'courses_view_all'    => 'View all courses',
+    'levels_title'        => 'Learning path by level',
+    'levels_subtitle'     => 'Three learning stages designed around age and goals.',
+    'instructors_title'   => 'Our instructors',
+    'instructors_subtitle' => 'The teachers who walk the musical journey with you.',
+    'posts_title'         => 'Knowledge library',
+    'posts_subtitle'      => 'Articles, practice tips and music stories.',
+    'cta_title'           => 'Ready to start your musical journey?',
+    'cta_subtext'         => 'Sign up today and get a free trial lesson with one of our instructors.',
+    'cta_button'          => 'Book a trial lesson',
+
+    // Common
+    'read_more'          => 'View details',
+    'view_all'           => 'View all',
+    'search'             => 'Search',
+    'search_placeholder' => 'Type a keyword...',
+    'filter_all'         => 'All',
+    'filter_level'       => 'Level',
+    'no_results'         => 'No results found.',
+    'back'               => 'Back',
+    'price'              => 'Tuition',
+    'free'               => 'Free',
+    'duration'           => 'Duration',
+    'level'              => 'Level',
+    'instructor'         => 'Instructor',
+    'published_on'       => 'Published on',
+    'related_courses'    => 'Related courses',
+    'related_posts'      => 'Related articles',
+    'courses_by'         => 'Courses taught',
+    'contact_now'        => 'Contact us',
+    'register_course'    => 'Enrol in this course',
+    'age_range'          => 'Age range',
+    'home'               => 'Home',
+
+    // Auth
+    'login_title'        => 'Log in',
+    'login_subtitle'     => 'Welcome back to MusicOfEveryone.',
+    'register_title'     => 'Create an account',
+    'register_subtitle'  => 'Sign up to save courses and track your progress.',
+    'field_name'         => 'Full name',
+    'field_email'        => 'Email',
+    'field_phone'        => 'Phone number',
+    'field_password'     => 'Password',
+    'field_password_confirm' => 'Confirm password',
+    'field_current_password' => 'Current password',
+    'field_new_password' => 'New password',
+    'btn_login'          => 'Log in',
+    'btn_register'       => 'Sign up',
+    'btn_save'           => 'Save changes',
+    'btn_send'           => 'Send message',
+    'have_account'       => 'Already have an account?',
+    'no_account'         => "Don't have an account?",
+    'profile_title'      => 'My profile',
+    'profile_info'       => 'Personal information',
+    'profile_password'   => 'Change password',
+    'member_since'       => 'Member since',
+
+    // Messages
+    'msg_login_success'   => 'Logged in successfully.',
+    'msg_login_failed'    => 'Incorrect email or password.',
+    'msg_account_locked'  => 'Your account has been disabled.',
+    'msg_register_success' => 'Registration successful. Welcome aboard!',
+    'msg_email_exists'    => 'This email is already registered.',
+    'msg_password_mismatch' => 'Password confirmation does not match.',
+    'msg_password_short'  => 'Password must be at least 8 characters.',
+    'msg_required_fields' => 'Please fill in all required fields.',
+    'msg_invalid_email'   => 'Invalid email address.',
+    'msg_profile_updated' => 'Profile updated successfully.',
+    'msg_password_updated' => 'Password changed successfully.',
+    'msg_wrong_password'  => 'The current password is incorrect.',
+    'msg_contact_sent'    => 'Thank you! We will get back to you shortly.',
+    'msg_csrf'            => 'Your session has expired, please try again.',
+    'msg_not_found'       => 'The content you requested was not found.',
+
+    // Contact
+    'contact_title'       => 'Contact',
+    'contact_subtitle'    => 'Have a question? Leave us a message and we will reply within 24 hours.',
+    'contact_info'        => 'Contact information',
+    'field_subject'       => 'Subject',
+    'field_message'       => 'Message',
+    'working_hours'       => 'Working hours',
+    'address'             => 'Address',
+    'phone'               => 'Phone',
+
+    // About
+    'about_title'         => 'About us',
+    'about_subtitle'      => 'Music is a gift meant for everyone.',
+    'about_mission'       => 'Mission',
+    'about_vision'        => 'Vision',
+    'about_values'        => 'Core values',
+    'about_story'         => 'Our story',
+
+    // Community
+    'community_title'     => 'Community',
+    'community_subtitle'  => 'Where MusicOfEveryone students connect, share and grow together.',
+
+    // Library
+    'library_title'       => 'Library',
+    'library_subtitle'    => 'Music knowledge, practice tips and inspiration every week.',
+
+    // Courses page
+    'courses_page_title'  => 'All courses',
+    'courses_page_subtitle' => 'Pick the course that matches your age and your goals.',
+
+    // Instructors page
+    'instructors_page_title' => 'Instructors',
+    'instructors_page_subtitle' => 'A dedicated and highly experienced teaching team.',
+
+    // Footer
+    'footer_about'        => 'MusicOfEveryone is an online music club for all ages, bringing music closer to everyone.',
+    'footer_links'        => 'Quick links',
+    'footer_courses'      => 'Courses',
+    'footer_contact'      => 'Contact',
+    'footer_follow'       => 'Follow us',
+    'footer_copyright'    => 'MusicOfEveryone. All rights reserved.',
+
+    // Stats
+    'stat_students'       => 'Students',
+    'stat_courses'        => 'Courses',
+    'stat_instructors'    => 'Instructors',
+    'stat_years'          => 'Years of experience',
+
+    // Pagination
+    'prev'                => 'Previous',
+    'next'                => 'Next',
+
+    // Admin
+    'admin_panel'         => 'Admin panel',
+    'admin_dashboard'     => 'Dashboard',
+    'admin_courses'       => 'Courses',
+    'admin_posts'         => 'Posts',
+    'admin_instructors'   => 'Instructors',
+    'admin_levels'        => 'Levels',
+    'admin_features'      => 'Features',
+    'admin_members'       => 'Members',
+    'admin_settings'      => 'Settings',
+    'admin_messages'      => 'Contact messages',
+    'admin_view_site'     => 'View site',
+    'admin_add_new'       => 'Add new',
+    'admin_edit'          => 'Edit',
+    'admin_delete'        => 'Delete',
+    'admin_actions'       => 'Actions',
+    'admin_status'        => 'Status',
+    'admin_active'        => 'Active',
+    'admin_inactive'      => 'Hidden',
+    'admin_published'     => 'Published',
+    'admin_draft'         => 'Draft',
+    'admin_featured'      => 'Featured',
+    'admin_title'         => 'Title',
+    'admin_recent'        => 'Latest',
+    'admin_confirm_delete' => 'Are you sure you want to delete this item?',
+    'admin_no_items'      => 'No data yet.',
+    'admin_login_title'   => 'Administrator sign in',
+    'msg_admin_required'  => 'You need administrator rights to access this page.',
+    'msg_saved'           => 'Changes saved.',
+    'msg_deleted'         => 'Deleted successfully.',
+    'msg_upload_error'    => 'Image upload failed.',
+];
