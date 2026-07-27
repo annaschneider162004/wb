@@ -1,0 +1,22 @@
+# Real config with DB credentials should NOT be committed.
+# The included config.php contains only safe localhost defaults for development.
+# After deployment, run: git rm --cached config.php
+# and add it back to this file (uncomment the line below):
+# config.php
+
+# Uploaded files (user-generated content)
+uploads/*
+!uploads/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# PHP error logs
+*.log
+error_log
+php_errorlog
