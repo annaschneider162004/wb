@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="300" height="360" role="img" aria-label="Young boy playing a recorder flute">
+  <defs>
+    <linearGradient id="rcBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0d6"/><stop offset="1" stop-color="#ffd79a"/>
+    </linearGradient>
+    <linearGradient id="rcShirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fc3f7"/><stop offset="1" stop-color="#1c84c6"/>
+    </linearGradient>
+    <radialGradient id="rcSkin" cx=".4" cy=".32" r=".8">
+      <stop offset="0" stop-color="#ffdcb8"/><stop offset="1" stop-color="#e8ae7f"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="300" height="360" rx="26" fill="url(#rcBg)"/>
+  <circle cx="60" cy="66" r="34" fill="#fff" opacity=".45"/>
+  <text x="230" y="76" font-family="Georgia, serif" font-size="32" fill="#e07b2a" opacity=".45">&#9835;</text>
+  <text x="46" y="288" font-family="Georgia, serif" font-size="26" fill="#e07b2a" opacity=".4">&#9834;</text>
+  <ellipse cx="150" cy="336" rx="80" ry="13" fill="#8a5312" opacity=".18"/>
+
+  <!-- legs -->
+  <rect x="122" y="262" width="22" height="52" rx="8" fill="#2f4f7d"/>
+  <rect x="156" y="262" width="22" height="52" rx="8" fill="#2f4f7d"/>
+  <rect x="108" y="308" width="44" height="18" rx="9" fill="#e2483f"/>
+  <rect x="148" y="308" width="44" height="18" rx="9" fill="#e2483f"/>
+
+  <!-- body -->
+  <path d="M150 158c26 0 38 14 42 38l8 46c2 10-6 18-16 18h-68c-10 0-18-8-16-18l8-46c4-24 16-38 42-38Z" fill="url(#rcShirt)"/>
+  <circle cx="150" cy="212" r="18" fill="#fff" opacity=".85"/>
+  <path d="M150 202v14a6 6 0 1 1-4-5.6V202h8v-4h-8Z" fill="#1c84c6"/>
+
+  <!-- arms -->
+  <path d="M112 172c-14 12-22 26-24 42-1 9 12 11 14 2 3-13 8-22 17-29l-7-15Z" fill="url(#rcSkin)"/>
+  <path d="M188 172c14 12 22 26 24 42 1 9-12 11-14 2-3-13-8-22-17-29l7-15Z" fill="url(#rcSkin)"/>
+  <circle cx="104" cy="214" r="12" fill="url(#rcSkin)"/>
+  <circle cx="196" cy="214" r="12" fill="url(#rcSkin)"/>
+
+  <!-- recorder -->
+  <g transform="rotate(58 150 176)">
+    <rect x="142" y="126" width="17" height="112" rx="8" fill="#f6e3c8"/>
+    <rect x="142" y="126" width="17" height="16" rx="8" fill="#3f230d"/>
+    <rect x="140" y="152" width="21" height="7" rx="3" fill="#d9bd97"/>
+    <g fill="#8a6a45">
+      <circle cx="150" cy="172" r="3"/><circle cx="150" cy="186" r="3"/>
+      <circle cx="150" cy="200" r="3"/><circle cx="150" cy="214" r="3"/>
+    </g>
+    <rect x="140" y="230" width="21" height="8" rx="4" fill="#d9bd97"/>
+  </g>
+
+  <!-- head -->
+  <path d="M138 130h24v30h-24z" fill="#e8ae7f"/>
+  <circle cx="150" cy="102" r="48" fill="url(#rcSkin)"/>
+  <path d="M102 96c0-30 22-50 48-50s48 20 48 50c-8-4-12-14-16-22-16 12-52 14-70 4-4 6-7 12-10 18Z" fill="#3b2415"/>
+  <path d="M150 46c-8 0-14 2-20 6 8-12 26-12 34-2-4-2-9-4-14-4Z" fill="#54341d"/>
+  <circle cx="104" cy="110" r="8" fill="#e8ae7f"/>
+  <circle cx="196" cy="110" r="8" fill="#e8ae7f"/>
+  <ellipse cx="132" cy="100" rx="9" ry="10" fill="#fff"/>
+  <ellipse cx="168" cy="100" rx="9" ry="10" fill="#fff"/>
+  <circle cx="133" cy="102" r="5.5" fill="#2b1d17"/>
+  <circle cx="169" cy="102" r="5.5" fill="#2b1d17"/>
+  <circle cx="135" cy="99" r="2.2" fill="#fff"/>
+  <circle cx="171" cy="99" r="2.2" fill="#fff"/>
+  <path d="M122 86c4-4 12-5 17-2M161 84c5-3 13-2 17 2" stroke="#3c281c" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+  <ellipse cx="116" cy="118" rx="10" ry="7" fill="#f79a8a" opacity=".6"/>
+  <ellipse cx="184" cy="118" rx="10" ry="7" fill="#f79a8a" opacity=".6"/>
+  <ellipse cx="150" cy="124" rx="9" ry="7" fill="#8c3a30"/>
+</svg>

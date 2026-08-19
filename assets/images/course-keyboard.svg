@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="300" height="360" role="img" aria-label="Girl playing an electronic keyboard">
+  <defs>
+    <linearGradient id="kbBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9f4ff"/><stop offset="1" stop-color="#a5dcf5"/>
+    </linearGradient>
+    <linearGradient id="kbShirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#f2a413"/>
+    </linearGradient>
+    <radialGradient id="kbSkin" cx=".4" cy=".32" r=".8">
+      <stop offset="0" stop-color="#ffdcbb"/><stop offset="1" stop-color="#eab188"/>
+    </radialGradient>
+    <linearGradient id="kbCase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#39424f"/><stop offset="1" stop-color="#1b2129"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="300" height="360" rx="26" fill="url(#kbBg)"/>
+  <circle cx="238" cy="62" r="34" fill="#fff" opacity=".45"/>
+  <text x="42" y="72" font-family="Georgia, serif" font-size="32" fill="#1c84c6" opacity=".45">&#9834;</text>
+  <text x="250" y="290" font-family="Georgia, serif" font-size="26" fill="#1c84c6" opacity=".4">&#9835;</text>
+  <ellipse cx="150" cy="340" rx="96" ry="14" fill="#144a66" opacity=".18"/>
+
+  <!-- head -->
+  <path d="M138 118h24v30h-24z" fill="#eab188"/>
+  <path d="M96 92c0-32 24-56 54-56s54 24 54 56c0 34-6 62-14 84-8-30-8-58-8-84-16 10-52 10-66 2-2 26-4 54-12 82-6-22-8-50-8-84Z" fill="#f2a413"/>
+  <circle cx="150" cy="94" r="46" fill="url(#kbSkin)"/>
+  <path d="M104 90c0-28 21-48 46-48s46 20 46 48c-8-5-13-15-16-24-16 13-46 16-62 8-4 6-8 11-14 16Z" fill="#c97f0d"/>
+  <path d="M96 96c-4 30-2 58 4 78 6-26 4-52 2-78h-6ZM204 96c4 30 2 58-4 78-6-26-4-52-2-78h6Z" fill="#f2a413"/>
+  <circle cx="106" cy="100" r="8" fill="#eab188"/>
+  <circle cx="194" cy="100" r="8" fill="#eab188"/>
+  <ellipse cx="132" cy="94" rx="8" ry="9" fill="#fff"/>
+  <ellipse cx="168" cy="94" rx="8" ry="9" fill="#fff"/>
+  <circle cx="133" cy="96" r="5" fill="#2b1d17"/>
+  <circle cx="169" cy="96" r="5" fill="#2b1d17"/>
+  <circle cx="135" cy="93" r="2" fill="#fff"/>
+  <circle cx="171" cy="93" r="2" fill="#fff"/>
+  <path d="M123 80c4-4 12-5 16-2M160 78c4-3 12-2 16 2" stroke="#3c281c" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+  <ellipse cx="118" cy="110" rx="9" ry="6" fill="#f79a8a" opacity=".6"/>
+  <ellipse cx="182" cy="110" rx="9" ry="6" fill="#f79a8a" opacity=".6"/>
+  <path d="M141 114c5 8 14 8 19 0 0 11-19 11-19 0Z" fill="#a1394a"/>
+
+  <!-- body -->
+  <path d="M150 146c26 0 40 14 44 40l8 44c2 10-6 18-16 18h-72c-10 0-18-8-16-18l8-44c4-26 18-40 44-40Z" fill="url(#kbShirt)"/>
+  <path d="M132 160h36l-18 26-18-26Z" fill="#fff" opacity=".35"/>
+
+  <!-- arms -->
+  <path d="M112 168c-18 12-30 28-34 48-2 9 12 12 14 3 4-16 12-27 26-35l-6-16Z" fill="url(#kbSkin)"/>
+  <path d="M188 168c18 12 30 28 34 48 2 9-12 12-14 3-4-16-12-27-26-35l6-16Z" fill="url(#kbSkin)"/>
+  <circle cx="94" cy="228" r="12" fill="url(#kbSkin)"/>
+  <circle cx="206" cy="228" r="12" fill="url(#kbSkin)"/>
+
+  <!-- keyboard -->
+  <rect x="42" y="238" width="216" height="34" rx="10" fill="url(#kbCase)"/>
+  <rect x="52" y="246" width="196" height="18" rx="4" fill="#f7f9fb"/>
+  <g fill="#1b2129">
+    <rect x="62" y="246" width="6" height="11"/><rect x="78" y="246" width="6" height="11"/>
+    <rect x="104" y="246" width="6" height="11"/><rect x="120" y="246" width="6" height="11"/>
+    <rect x="136" y="246" width="6" height="11"/><rect x="162" y="246" width="6" height="11"/>
+    <rect x="178" y="246" width="6" height="11"/><rect x="204" y="246" width="6" height="11"/>
+    <rect x="220" y="246" width="6" height="11"/>
+  </g>
+  <rect x="52" y="228" width="60" height="10" rx="4" fill="#4c5766"/>
+  <circle cx="126" cy="233" r="4" fill="#7ee0a8"/>
+  <circle cx="140" cy="233" r="4" fill="#ffd54f"/>
+  <rect x="66" y="272" width="10" height="56" rx="4" fill="#2b333d"/>
+  <rect x="224" y="272" width="10" height="56" rx="4" fill="#2b333d"/>
+  <rect x="60" y="322" width="180" height="8" rx="4" fill="#2b333d"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="300" height="360" role="img" aria-label="Boy playing a grand piano">
+  <defs>
+    <linearGradient id="pnBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dfe9ff"/><stop offset="1" stop-color="#b9cdfb"/>
+    </linearGradient>
+    <linearGradient id="pnSuit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f5aa6"/><stop offset="1" stop-color="#24386e"/>
+    </linearGradient>
+    <radialGradient id="pnSkin" cx=".4" cy=".32" r=".8">
+      <stop offset="0" stop-color="#f3c39b"/><stop offset="1" stop-color="#d79a6c"/>
+    </radialGradient>
+    <linearGradient id="pnPiano" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#33383f"/><stop offset="1" stop-color="#15181d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="300" height="360" rx="26" fill="url(#pnBg)"/>
+  <circle cx="62" cy="60" r="36" fill="#fff" opacity=".4"/>
+  <text x="238" y="64" font-family="Georgia, serif" font-size="32" fill="#2f4a97" opacity=".4">&#9835;</text>
+  <ellipse cx="150" cy="338" rx="96" ry="14" fill="#20305c" opacity=".18"/>
+
+  <!-- stool -->
+  <rect x="196" y="268" width="58" height="12" rx="6" fill="#8b5e3c"/>
+  <rect x="204" y="280" width="8" height="50" fill="#6d482d"/>
+  <rect x="238" y="280" width="8" height="50" fill="#6d482d"/>
+
+  <!-- body -->
+  <path d="M186 158c26 0 40 16 42 42l6 56c1 10-7 18-17 18h-62c-10 0-18-8-17-18l6-56c2-26 16-42 42-42Z" fill="url(#pnSuit)"/>
+  <path d="M186 158c8 0 15 2 21 5l-21 34-21-34c6-3 13-5 21-5Z" fill="#f4f7ff"/>
+  <path d="M181 168h10l-3 16 5 8-7 10-7-10 5-8-3-16Z" fill="#e2483f"/>
+
+  <!-- legs -->
+  <path d="M164 268h24v42h-24z" fill="#24386e"/>
+  <path d="M198 268h24v42h-24z" fill="#24386e"/>
+  <rect x="140" y="300" width="52" height="16" rx="8" fill="#1c1f26"/>
+  <rect x="176" y="300" width="52" height="16" rx="8" fill="#1c1f26"/>
+
+  <!-- head -->
+  <path d="M186 128h22v34h-22z" fill="#d79a6c"/>
+  <circle cx="192" cy="104" r="46" fill="url(#pnSkin)"/>
+  <path d="M148 96c2-28 22-46 46-46s44 18 45 46c-8-4-12-14-15-22-14 14-48 18-64 8-4 6-8 11-12 14Z" fill="#2f2119"/>
+  <circle cx="147" cy="108" r="8" fill="#d79a6c"/>
+  <circle cx="237" cy="108" r="8" fill="#d79a6c"/>
+  <ellipse cx="174" cy="104" rx="8" ry="9" fill="#fff"/>
+  <ellipse cx="210" cy="104" rx="8" ry="9" fill="#fff"/>
+  <circle cx="175" cy="106" r="5" fill="#251a13"/>
+  <circle cx="211" cy="106" r="5" fill="#251a13"/>
+  <circle cx="177" cy="103" r="2" fill="#fff"/>
+  <circle cx="213" cy="103" r="2" fill="#fff"/>
+  <path d="M165 90c4-4 12-5 16-2M202 88c5-3 13-2 16 2" stroke="#33241b" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+  <ellipse cx="160" cy="120" rx="9" ry="6" fill="#ef8f7f" opacity=".55"/>
+  <ellipse cx="224" cy="120" rx="9" ry="6" fill="#ef8f7f" opacity=".55"/>
+  <path d="M182 124c5 8 14 8 19 0 0 11-19 11-19 0Z" fill="#8c3a30"/>
+
+  <!-- piano -->
+  <path d="M26 214h150c8 0 14 6 14 14v18H12v-18c0-8 6-14 14-14Z" fill="url(#pnPiano)"/>
+  <path d="M18 246h170v16H18z" fill="#f6f7fa"/>
+  <g fill="#1b1f26">
+    <rect x="28" y="246" width="6" height="10"/><rect x="44" y="246" width="6" height="10"/>
+    <rect x="70" y="246" width="6" height="10"/><rect x="86" y="246" width="6" height="10"/>
+    <rect x="102" y="246" width="6" height="10"/><rect x="128" y="246" width="6" height="10"/>
+    <rect x="144" y="246" width="6" height="10"/><rect x="170" y="246" width="6" height="10"/>
+  </g>
+  <path d="M18 262h170v10a6 6 0 0 1-6 6H24a6 6 0 0 1-6-6v-10Z" fill="#2a2f37"/>
+  <path d="M28 200h140l24-16H52l-24 16Z" fill="#3b414a"/>
+  <rect x="34" y="278" width="12" height="52" fill="#22262d"/>
+  <rect x="160" y="278" width="12" height="52" fill="#22262d"/>
+
+  <!-- arms to keys -->
+  <path d="M154 194c-24 8-44 26-56 46-5 8 7 16 13 8 12-18 28-30 48-36l-5-18Z" fill="url(#pnSkin)"/>
+  <circle cx="106" cy="244" r="12" fill="#f3c39b"/>
+</svg>

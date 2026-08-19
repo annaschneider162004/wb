@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="300" height="360" role="img" aria-label="Boy with headphones producing music on a laptop">
+  <defs>
+    <linearGradient id="ltBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6e2ff"/><stop offset="1" stop-color="#bcb4f7"/>
+    </linearGradient>
+    <linearGradient id="ltHood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f5be0"/><stop offset="1" stop-color="#3a35a8"/>
+    </linearGradient>
+    <radialGradient id="ltSkin" cx=".4" cy=".32" r=".8">
+      <stop offset="0" stop-color="#f7cda6"/><stop offset="1" stop-color="#dda275"/>
+    </radialGradient>
+    <linearGradient id="ltScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e7d4f"/><stop offset="1" stop-color="#14432c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="300" height="360" rx="26" fill="url(#ltBg)"/>
+  <circle cx="60" cy="64" r="34" fill="#fff" opacity=".4"/>
+  <text x="238" y="72" font-family="Georgia, serif" font-size="32" fill="#3a35a8" opacity=".4">&#9835;</text>
+  <text x="42" y="292" font-family="Georgia, serif" font-size="26" fill="#3a35a8" opacity=".35">&#9834;</text>
+  <ellipse cx="150" cy="340" rx="98" ry="14" fill="#241f6b" opacity=".18"/>
+
+  <!-- desk -->
+  <rect x="26" y="286" width="248" height="12" rx="6" fill="#a97a4e"/>
+  <rect x="44" y="298" width="12" height="38" fill="#8a6039"/>
+  <rect x="244" y="298" width="12" height="38" fill="#8a6039"/>
+
+  <!-- head -->
+  <path d="M138 122h24v28h-24z" fill="#dda275"/>
+  <circle cx="150" cy="98" r="46" fill="url(#ltSkin)"/>
+  <path d="M104 92c0-28 21-48 46-48s46 20 46 48c-8-4-13-14-16-23-16 12-48 15-64 6-4 6-9 12-12 17Z" fill="#33261a"/>
+  <ellipse cx="132" cy="98" rx="8" ry="9" fill="#fff"/>
+  <ellipse cx="168" cy="98" rx="8" ry="9" fill="#fff"/>
+  <circle cx="133" cy="100" r="5" fill="#2b1d17"/>
+  <circle cx="169" cy="100" r="5" fill="#2b1d17"/>
+  <circle cx="135" cy="97" r="2" fill="#fff"/>
+  <circle cx="171" cy="97" r="2" fill="#fff"/>
+  <path d="M123 84c4-4 12-5 16-2M160 82c4-3 12-2 16 2" stroke="#33261a" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+  <ellipse cx="118" cy="114" rx="9" ry="6" fill="#ef8f7f" opacity=".55"/>
+  <ellipse cx="182" cy="114" rx="9" ry="6" fill="#ef8f7f" opacity=".55"/>
+  <path d="M140 118c5 8 15 8 20 0 0 12-20 12-20 0Z" fill="#8c3a30"/>
+
+  <!-- headphones -->
+  <path d="M100 96a50 50 0 0 1 100 0" stroke="#e2483f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <rect x="86" y="88" width="24" height="38" rx="12" fill="#e2483f"/>
+  <rect x="190" y="88" width="24" height="38" rx="12" fill="#e2483f"/>
+  <rect x="92" y="96" width="12" height="22" rx="6" fill="#ffb4ad"/>
+  <rect x="196" y="96" width="12" height="22" rx="6" fill="#ffb4ad"/>
+
+  <!-- body -->
+  <path d="M150 146c28 0 42 16 46 42l6 42c2 10-6 18-16 18h-72c-10 0-18-8-16-18l6-42c4-26 18-42 46-42Z" fill="url(#ltHood)"/>
+  <path d="M126 148c8 10 40 10 48 0l-6 22h-36l-6-22Z" fill="#8d8aef"/>
+  <path d="M150 176v34" stroke="#2b2782" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- arms to laptop -->
+  <path d="M108 176c-18 14-28 32-30 52-1 9 13 11 14 2 3-16 10-28 22-38l-6-16Z" fill="url(#ltSkin)"/>
+  <path d="M192 176c18 14 28 32 30 52 1 9-13 11-14 2-3-16-10-28-22-38l6-16Z" fill="url(#ltSkin)"/>
+  <circle cx="92" cy="252" r="13" fill="url(#ltSkin)"/>
+  <circle cx="208" cy="252" r="13" fill="url(#ltSkin)"/>
+
+  <!-- laptop -->
+  <path d="M96 202h108a8 8 0 0 1 8 8v62H88v-62a8 8 0 0 1 8-8Z" fill="#3d4551"/>
+  <rect x="98" y="210" width="104" height="56" rx="4" fill="url(#ltScreen)"/>
+  <g fill="#8fd6ae">
+    <rect x="108" y="238" width="6" height="20" rx="3"/><rect x="120" y="228" width="6" height="30" rx="3"/>
+    <rect x="132" y="220" width="6" height="38" rx="3"/><rect x="144" y="232" width="6" height="26" rx="3"/>
+    <rect x="156" y="216" width="6" height="42" rx="3"/><rect x="168" y="228" width="6" height="30" rx="3"/>
+    <rect x="180" y="240" width="6" height="18" rx="3"/>
+  </g>
+  <rect x="70" y="272" width="160" height="14" rx="6" fill="#59636f"/>
+  <rect x="126" y="276" width="48" height="5" rx="2.5" fill="#3d4551"/>
+</svg>

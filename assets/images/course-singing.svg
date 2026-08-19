@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="300" height="360" role="img" aria-label="Girl singing with a microphone">
+  <defs>
+    <linearGradient id="sgBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd7e6"/><stop offset="1" stop-color="#ffb3d1"/>
+    </linearGradient>
+    <linearGradient id="sgDress" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff6fa5"/><stop offset="1" stop-color="#e63971"/>
+    </linearGradient>
+    <radialGradient id="sgSkin" cx=".4" cy=".32" r=".8">
+      <stop offset="0" stop-color="#ffd9b8"/><stop offset="1" stop-color="#e9ab7d"/>
+    </radialGradient>
+    <linearGradient id="sgHair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b3a29"/><stop offset="1" stop-color="#331f14"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="300" height="360" rx="26" fill="url(#sgBg)"/>
+  <circle cx="238" cy="66" r="40" fill="#fff" opacity=".35"/>
+  <text x="44" y="70" font-family="Georgia, serif" font-size="34" fill="#e63971" opacity=".45">&#9835;</text>
+  <text x="252" y="266" font-family="Georgia, serif" font-size="28" fill="#e63971" opacity=".4">&#9834;</text>
+  <ellipse cx="150" cy="336" rx="82" ry="13" fill="#8d2b52" opacity=".18"/>
+
+  <!-- legs -->
+  <path d="M124 268h18v58a9 9 0 0 1-18 0v-58Z" fill="#f0bd94"/>
+  <path d="M160 268h18v58a9 9 0 0 1-18 0v-58Z" fill="#f0bd94"/>
+  <path d="M112 322h34a8 8 0 0 1 8 8v6h-50v-6a8 8 0 0 1 8-8Z" fill="#7a2c4d"/>
+  <path d="M154 322h34a8 8 0 0 1 8 8v6h-50v-6a8 8 0 0 1 8-8Z" fill="#7a2c4d"/>
+
+  <!-- dress -->
+  <path d="M150 148c30 0 46 16 52 44l12 62c2 11-6 20-17 20H103c-11 0-19-9-17-20l12-62c6-28 22-44 52-44Z" fill="url(#sgDress)"/>
+  <path d="M98 250h104l4 20H94l4-20Z" fill="#fff" opacity=".22"/>
+
+  <!-- arms -->
+  <path d="M104 168c-16 12-25 30-26 52 -1 9 12 11 14 2 4-17 10-29 21-38l-9-16Z" fill="url(#sgSkin)"/>
+  <path d="M196 168c17 10 26 25 30 44 2 9-11 12-14 3-5-15-11-25-22-32l6-15Z" fill="url(#sgSkin)"/>
+  <circle cx="79" cy="224" r="12" fill="url(#sgSkin)"/>
+  <circle cx="226" cy="216" r="12" fill="url(#sgSkin)"/>
+
+  <!-- microphone -->
+  <rect x="70" y="176" width="12" height="44" rx="6" transform="rotate(-16 76 198)" fill="#39404d"/>
+  <circle cx="86" cy="164" r="16" fill="#9aa4b2"/>
+  <circle cx="86" cy="164" r="11" fill="#5c6675"/>
+  <path d="M77 158h18M77 164h18M77 170h18" stroke="#39404d" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- neck + head -->
+  <path d="M138 122h24v30h-24z" fill="#e9ab7d"/>
+  <path d="M92 96c0-34 26-58 58-58s58 24 58 58c0 30-26 56-58 56s-58-26-58-56Z" fill="url(#sgHair)"/>
+  <circle cx="150" cy="98" r="48" fill="url(#sgSkin)"/>
+  <path d="M102 92c0-30 22-50 48-50s48 20 48 50c-10-6-16-18-20-28-14 14-46 20-64 12-4 6-8 12-12 16Z" fill="url(#sgHair)"/>
+  <path d="M96 104c-8 34-6 66 2 92 10-30 8-60 6-92h-8Z" fill="url(#sgHair)"/>
+  <path d="M204 104c8 34 6 66-2 92-10-30-8-60-6-92h8Z" fill="url(#sgHair)"/>
+  <circle cx="100" cy="104" r="9" fill="#e9ab7d"/>
+  <circle cx="200" cy="104" r="9" fill="#e9ab7d"/>
+
+  <!-- face -->
+  <ellipse cx="131" cy="96" rx="8" ry="10" fill="#fff"/>
+  <ellipse cx="169" cy="96" rx="8" ry="10" fill="#fff"/>
+  <circle cx="132" cy="98" r="5" fill="#2b1d17"/>
+  <circle cx="170" cy="98" r="5" fill="#2b1d17"/>
+  <circle cx="134" cy="95" r="2" fill="#fff"/>
+  <circle cx="172" cy="95" r="2" fill="#fff"/>
+  <path d="M122 82c4-5 12-6 17-3M161 79c5-3 13-2 17 3" stroke="#3c281c" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+  <ellipse cx="115" cy="114" rx="10" ry="7" fill="#ff8fb0" opacity=".6"/>
+  <ellipse cx="185" cy="114" rx="10" ry="7" fill="#ff8fb0" opacity=".6"/>
+  <path d="M140 118c6 10 16 10 22 0 0 12-22 12-22 0Z" fill="#b8355c"/>
+  <path d="M141 118h20" stroke="#7d2340" stroke-width="2" stroke-linecap="round"/>
+  <path d="M119 46c14-12 46-16 66 0 8 6 12 14 12 22-16-14-58-18-78-22Z" fill="#7a4a33" opacity=".7"/>
+</svg>
